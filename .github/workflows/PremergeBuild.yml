@@ -1,4 +1,4 @@
-name: PreMerge Build
+name: PreMergeBuild
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - main  # PRのターゲットブランチがmainの場合に動作する
 
 jobs:
-  build:
+  pre-merge-build:
     runs-on: ubuntu-latest
 
     steps:
