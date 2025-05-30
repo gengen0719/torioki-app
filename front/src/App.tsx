@@ -10,7 +10,7 @@ function App() {
         <LiveCardContainer />
       </main>
      <footer />
-    </>s
+    </>
   );
 }
 export default App
