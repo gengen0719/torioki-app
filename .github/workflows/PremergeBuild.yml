@@ -22,4 +22,4 @@ jobs:
         run: cd front && npm install
 
       - name: Build the project
-        run: npm run build
+        run: cd front && npm run build
