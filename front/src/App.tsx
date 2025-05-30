@@ -11,6 +11,6 @@ function App() {
       </main>
      <footer />
     </>
-  );s
+  );
 }
 export default App
