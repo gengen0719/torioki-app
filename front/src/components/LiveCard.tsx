@@ -10,7 +10,7 @@ export type LiveCardProps = {
     img: string,
 }
 
-function LiveCard({id, title, place, date, startTime, price, img }: LiveCardProps) {
+function LiveCard({id, title, place, date, startTime, price, img }: LiveCardProps) {xx
     return (
         <Card id={id} sx={{ width: 280 }}>
             <div>
