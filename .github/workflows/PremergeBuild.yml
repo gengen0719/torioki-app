@@ -19,7 +19,7 @@ jobs:
           node-version: '23'
 
       - name: Install dependencies
-        run: cd front && npm install
+        run: cd front && npm ci
 
       - name: Build the project
         run: cd front && npm run build
