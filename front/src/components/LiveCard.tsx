@@ -5,17 +5,19 @@ export type LiveCardProps = {
     title: string,
     place: string,
     date: string,
+    startTime?: string,
     price: number,
     img: string,
 }
 
-function LiveCard({id, title, place, date, price, img }: LiveCardProps) {
+function LiveCard({id, title, place, date, startTime, price, img }: LiveCardProps) {xx
     return (
         <Card id={id} sx={{ width: 280 }}>
             <div>
                 <Typography level="title-lg">{title}</Typography>
                 <Typography level="title-lg">{place}</Typography>
                 <Typography level="body-sm">{date}</Typography>
+                <Typography level="body-sm">開始時刻: {startTime ?? "未定"}</Typography>
                 <IconButton
                     aria-label="bookmark Bahamas Islands"
                     variant="plain"
