@@ -11,10 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        # actions/checkout v4.2.2 (commit 11bd71901bbe5b1630ceea73d8e6b0d2a0c5e0a1)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d8e6b0d2a0c5e0a1
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        # actions/setup-node v3.9.1 (commit 3235b876344d2a9aa001b8d1453c930bba69e610)
+        uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610
         with:
           node-version: '23'
 
