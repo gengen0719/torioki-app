@@ -11,8 +11,8 @@ jobs:
 
     steps:
       - name: Checkout repository
-        # actions/checkout v4.2.2 (commit 11bd71901bbe5b1630ceea73d8e6b0d2a0c5e0a1)
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d8e6b0d2a0c5e0a1
+        # actions/checkout v4.2.2 (commit 11bd71901bbe5b1630ceea73d27597364c9af683)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
 
       - name: Setup Node.js
         # actions/setup-node v3.9.1 (commit 3235b876344d2a9aa001b8d1453c930bba69e610)
